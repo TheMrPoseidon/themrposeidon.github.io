@@ -1,5 +1,6 @@
 ---
 icon: lucide/rocket
+title: My Second Brain
 ---
 
 # Why?
