@@ -1,0 +1,9 @@
+# python
+.venv
+
+# uv
+uv.lock
+
+# zensical
+site
+.cache
