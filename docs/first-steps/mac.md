@@ -85,7 +85,10 @@ I want different apps to be present on my mac. Here is the current list of them:
 - Joplin: Tool to take notes in Markdown
 - KeepassXC: Password Manager
 - drawio: Tool to create diagrams for different topics
+- Affinity: IMHO the perfect replacement for the Adobe suite (Photoshop, Indesign and Illustrator)
+- Spotifiy: Musik Streaming
+
 
 ```bash
-brew install visual-studio-code firefox joplin keepassxc drawio
+brew install visual-studio-code firefox joplin keepassxc drawio affinity spotify
 ```
