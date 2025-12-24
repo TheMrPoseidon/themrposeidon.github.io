@@ -58,10 +58,15 @@ curl --output MesloLGS_NF_Italic.ttf https://raw.githubusercontent.com/romkatv/p
 curl --output MesloLGS_NF_Bold_Italic.ttf https://raw.githubusercontent.com/romkatv/powerlevel10k-media/master/MesloLGS%20NF%20Bold%20Italic.ttf
 open *.ttf &
 brew install powerlevel10k
+```
+
+After installing you should set your font `MesloLGS NF` inside your Terminal. Then: 
+
+```bash
 p10k configure
 ```
 
-### CLIs
+### Additional Command Line Tools
 I want different terminal tools to be present on my my here is the current list of them and what they do.
 
 - uv: Simplifing a virtual python environment by creating a distinct folder structure, managing a list of installed dependencies (compareable to a requirements.txt), allow for different python versions
