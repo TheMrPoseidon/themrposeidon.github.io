@@ -84,11 +84,16 @@ I want different apps to be present on my mac. Here is the current list of them:
 - Firefox: Privacy Oriented Browser
 - Joplin: Tool to take notes in Markdown
 - KeepassXC: Password Manager
+- Spotifiy: Musik Streaming
 - drawio: Tool to create diagrams for different topics
 - Affinity: IMHO the perfect replacement for the Adobe suite (Photoshop, Indesign and Illustrator)
-- Spotifiy: Musik Streaming
-
+- Virtualbuddy: A simple way to have a VM for Linux or macOS
+- Podman Desktop: A container engine
 
 ```bash
-brew install visual-studio-code firefox joplin keepassxc drawio affinity spotify
+# Must
+brew install visual-studio-code firefox joplin keepassxc spotify
+
+# Optional
+brew install drawio affinity virtualbuddy podman-desktop
 ```
