@@ -1,3 +1,8 @@
+---
+icon: lucide/ethernet-port
+title: ... with MikroTik
+---
+
 # Easybell Fiber with Mikrotik
 An Zero To Hero Guide to Use an Mikrotik-Switch for an [easybell fiber business](https://www.easybell.de/business/internet-telefonie/) with static IP
 
@@ -155,5 +160,5 @@ dst-port: 33434-33534
 action: accept
 ```
 
-## Honerable Metions:
+## Additional Information
 - [GitHub: zyxel-gpon-sfp](https://github.com/xvzf/zyxel-gpon-sfp)
