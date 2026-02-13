@@ -160,5 +160,27 @@ dst-port: 33434-33534
 action: accept
 ```
 
+## Problem with PPPoE & SFP+ Port?
+### Behaviour
+When you look into the logs you see that the PPPoE Session hase constant (in my case multible times within an hour) reconnections. What I saw was that the message `interface,info sfp-sfpplus1 link down` shows before `pppoe,debug vlan-isp: terminating sessions: interface state changed`. After some analysis I come to the conclusion that the problem is between the connection of the SFP-Module and the MikroTik Router. 
+
+<!-- TODO: Maybe add log here -->
+
+### Solution
+The following values show my current configuration for the `sfp-sfpplus1` interface. Go to `interfaces`->`sfp-sfpplus1` and change the confiugration accordingly.
+
+![Shows the configurations made in the SFP+ Module under tab Ethernet with the follwing values](../assets/Interfaces_sfpplus1_Ethernet_Config.png)
+
+```yaml
+auto-negotiation: false
+speed: 1G-baseX
+```
+
+Some important information if you use a MikroTik Router with 2.5G-support then you could try to check if `speed: 2.5G-baseX` does work for you. Because even if you order a 1GBit fiber `1G-baseX` gives you only `~800MBit` when checking it via [fast.com](https://fast.com). You can check the support here:
+
+![Views the SFP+ Modules configuration especially the tab SFP including the list of supported speeds](../assets/Interfaces_sfpplus1_SFP_Config.png)
+
 ## Additional Information
 - [GitHub: zyxel-gpon-sfp](https://github.com/xvzf/zyxel-gpon-sfp)
+- [MikroTik: Ethernet Configuration](https://help.mikrotik.com/docs/spaces/ROS/pages/8323191/Ethernet#Ethernet-Properties)
+- [MikroTik: SFP+ 2.5G Support](https://help.mikrotik.com/docs/spaces/ROS/pages/220233794/MikroTik+wired+interface+compatibility#MikroTikwiredinterfacecompatibility-SFP%2Binterfacecompatibilitywith1Gopticaltransceivers)
