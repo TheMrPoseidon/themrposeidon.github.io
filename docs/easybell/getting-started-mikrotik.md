@@ -1,5 +1,5 @@
 # Easybell Fiber with Mikrotik
-An Zero To Hero Guide to Use an Mikrotik-Switch for an easybell fiber access with static IP
+An Zero To Hero Guide to Use an Mikrotik-Switch for an [easybell fiber business](https://www.easybell.de/business/internet-telefonie/) with static IP
 
 ## Used Hardware
 - Mikrotik RB4011iGS+5HacQ2HnD (Router)
@@ -25,9 +25,9 @@ Okay, before we can start we should install the mangament software for our Mikro
 - [RouterOS v7 Stable](https://mikrotik.com/download)
 
 ### Information
-Okay, you have ordered a (company) fiber access from easybell. This means in order to connect to easybell you have to provide them with a `Modem ID`. You can do that at the first day or beforehand. (Keep in mind that it does require some time until the `Modem ID` is configured on the providers side). In order to get this ID which is burned into your GPON Adapter you have to look onto the `Zxyel PMG3000-D20B` you want to use. It is a 16-character long string of hexadecimal characters.
+Okay, you have ordered a (business) fiber access from easybell. This means in order to connect to easybell you have to provide them with a `Modem ID`. You can do that at the first day or beforehand. (Keep in mind that it does require some time until the `Modem ID` is configured on the providers side). In order to get this ID which is burned into your GPON Adapter you have to look onto the `Zxyel PMG3000-D20B` you want to use. It is a 16-character long string of hexadecimal characters.
 
-When you're logged into the easybell system get your PPPoE username and password (label as `DSL Zugangsdaten`)
+When you're logged into the easybell system get your PPPoE username and password (label as `DSL Zugangsdaten`).
 
 <!-- TODO: Get Glasfaser ID -->
 <!-- TODO: Get Static IPv4 and IPv6 -->
