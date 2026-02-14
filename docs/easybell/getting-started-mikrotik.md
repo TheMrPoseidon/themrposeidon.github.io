@@ -4,7 +4,7 @@ title: ... with MikroTik
 ---
 
 # Easybell Fiber with Mikrotik
-An Zero To Hero Guide to Use an Mikrotik-Switch with [easybell fiber business](https://www.easybell.de/business/internet-telefonie/) and Premium Services.
+A Zero To Hero Guide to Use an Mikrotik-Switch with [easybell fiber business](https://www.easybell.de/business/internet-telefonie/) and Premium Services.
 
 ## Used Hardware
 - [Mikrotik RB4011iGS+5HacQ2HnD](https://mikrotik.com/product/rb4011igs_5hacq2hnd_in) (Router)
