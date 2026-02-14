@@ -4,7 +4,7 @@ site_description = "A guideline for myself on how I like my digitial devices sho
 site_author = "TheMrPoseidon"
 site_url = "https://themrposeidon.github.io/"
 copyright = """
-Copyright &copy; 2025 TheMrPoseidon
+Copyright &copy; 2026 TheMrPoseidon
 """
 
 [project.theme]
