@@ -4,11 +4,14 @@ title: ... with MikroTik
 ---
 
 # Easybell Fiber with Mikrotik
-An Zero To Hero Guide to Use an Mikrotik-Switch for an [easybell fiber business](https://www.easybell.de/business/internet-telefonie/) with static IP
+An Zero To Hero Guide to Use an Mikrotik-Switch with [easybell fiber business](https://www.easybell.de/business/internet-telefonie/) and Premium Services.
 
 ## Used Hardware
-- Mikrotik RB4011iGS+5HacQ2HnD (Router)
-- Zyxel PMG3000-D20B (GPON SFP)
+- [Mikrotik RB4011iGS+5HacQ2HnD](https://mikrotik.com/product/rb4011igs_5hacq2hnd_in) (Router)
+- [Zyxel PMG3000-D20B](https://geschaeftskunden.telekom.de/business/produkte/internet-festnetz/geraete-zubehoer/zubehoer/digitalisierungsbox-glasfasermodem) (GPON SFP Module)
+
+!!! note
+    For a simple setup I would try to use the [MikroTik hAP ax S](https://mikrotik.com/product/hap_ax_s). There are three resasons why, (a) If you buy the SFP (MSRP 48€) and hAP ax S (MSRP 79$). You can get if for around 115€. Which is cheaper as a comparable FritzBox (e.g. 5530). Two things it is missing an 2.5GbE Port, cause we want to use the SFP Port here. As you only get 1GBit max it wont matter that much. And the complete DECT + Phone Think, but to be honest. I love the easybell Cloud Phone services and don't want proxy everything threw the FritzBox. My recommendation here is to use the [Easybell App](https://www.easybell.de/app/). (b) Compared to the `MikroTik RB4011` you get Wifi 6 which is a more modern protocol for your devices. And (c) a smaller footprint when you don't need the extra ports.
 
 ### Architecture
 ![Network Architektur](../assets/network.svg)
