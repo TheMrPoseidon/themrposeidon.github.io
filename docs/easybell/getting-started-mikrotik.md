@@ -134,6 +134,7 @@ Go to `IPv6`->`ND`->`Interfaces` and change the default configuration according 
 
 ```yaml
 interface: bridge
+mtu: 1492 # if this is not confiugred then azure.com won't work
 ```
 
 Go to `IPv6`->`DHCP Client`->`New` and add the configuration according the following values:
