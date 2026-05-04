@@ -40,6 +40,7 @@ killall Finder
 ```
 
 ## Terminal
+
 ### Brew
 The holy grail of package management on mac.
 
