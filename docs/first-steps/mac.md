@@ -69,12 +69,11 @@ p10k configure
 ### Additional Command Line Tools
 I want different terminal tools to be present on my my here is the current list of them and what they do.
 
-- uv: Simplifing a virtual python environment by creating a distinct folder structure, managing a list of installed dependencies (compareable to a requirements.txt), allow for different python versions
+- uv: Simplifing a virtual python environment by creating a distinct folder structure, managing a list of installed dependencies (compareable to a requirements.txt), allowing different python versions
 - kubectl: Managing kubernetes cluster
-- python: I want the latest python interpreter present on my mac
 
 ```bash
-brew install uv kubectl python
+brew install uv kubectl
 ```
 
 ## Apps
@@ -85,6 +84,7 @@ I want different apps to be present on my mac. Here is the current list of them:
 - Joplin: Tool to take notes in Markdown
 - KeepassXC: Password Manager
 - Spotifiy: Musik Streaming
+- Zed: Editor for source code (like Visual Studio Code but without Electron)
 - drawio: Tool to create diagrams for different topics
 - Affinity: IMHO the perfect replacement for the Adobe suite (Photoshop, Indesign and Illustrator)
 - Virtualbuddy: A simple way to have a VM for Linux or macOS
@@ -92,7 +92,7 @@ I want different apps to be present on my mac. Here is the current list of them:
 
 ```bash
 # Must
-brew install visual-studio-code firefox joplin keepassxc spotify
+brew install visual-studio-code firefox joplin keepassxc spotify zed
 
 # Optional
 brew install drawio affinity virtualbuddy podman-desktop
