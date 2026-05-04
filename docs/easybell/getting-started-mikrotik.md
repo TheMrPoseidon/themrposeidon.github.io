@@ -164,13 +164,14 @@ dst-port: 33434-33534
 action: accept
 ```
 
-## Problem with PPPoE & SFP+ Port?
-### Behaviour
+## Problem
+### Occasional disconnections on PPPoE and SFP+ port?
+#### Behaviour
 When you look into the logs you see that the PPPoE Session hase constant (in my case multible times within an hour) reconnections. What I saw was that the message `interface,info sfp-sfpplus1 link down` shows before `pppoe,debug vlan-isp: terminating sessions: interface state changed`. After some analysis I come to the conclusion that the problem is between the connection of the SFP-Module and the MikroTik Router. 
 
 <!-- TODO: Maybe add log here -->
 
-### Solution
+#### Solution
 The following values show my current configuration for the `sfp-sfpplus1` interface. Go to `interfaces`->`sfp-sfpplus1` and change the confiugration accordingly.
 
 ![Shows the configurations set in the SFP+ Module under tab Ethernet with the follwing values](../assets/Interfaces_sfpplus1_Ethernet_Config.png)
