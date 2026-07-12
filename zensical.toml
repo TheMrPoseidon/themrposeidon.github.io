@@ -29,6 +29,7 @@ features = [
     "navigation.tracking",
     "search.highlight",
     "toc.integrate",
+    "toc.follow",
 ]
 
 [[project.theme.palette]]
@@ -40,3 +41,8 @@ toggle.name = "Switch to dark mode"
 scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
+
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
